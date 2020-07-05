@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class ConfigTestController {
 
-	@Value("${name}")
+    @Value("${message:Hello default}")
 	private String name;
 	
 	@GetMapping("/hello")
