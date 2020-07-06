@@ -8,7 +8,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RequestMapping("/api")
 @RestController
-@RefreshScope
 public class ConfigTestController {
 
     @Value("${message}")
@@ -19,6 +18,7 @@ public class ConfigTestController {
 		
 		return name;
 	}
+//	Thanks
 	
-
+//	https://www.devglan.com/spring-cloud/spring-cloud-config
 }

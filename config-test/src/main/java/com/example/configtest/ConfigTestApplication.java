@@ -6,7 +6,6 @@ import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan("com.example")
 public class ConfigTestApplication {
 
 	public static void main(String[] args) {
